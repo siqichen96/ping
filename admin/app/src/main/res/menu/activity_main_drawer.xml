@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mon profil" />
+        <item
+            android:id="@+id/nav_ajouterborne"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ajouter une borne" />
+
+        <item
+            android:id="@+id/nav_modifierborne"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="modifer une borne" />
+
+        <item
+            android:id="@+id/nav_supprimerborne"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="supprimer une borne" />
+
+        <item
+            android:id="@+id/nav_ajouterevenement"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="ajouter un evenement" />
+
+        <item
+            android:id="@+id/nav_modifierevenement"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="modifier un evenement" />
+
+        <item
+            android:id="@+id/nav_supprimerevenement"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="supprimer un evenement" />
+
+        <item
+            android:id="@+id/nav_sedeconnecter"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Se deconnecter" />
+
+    </group>
+
+
+</menu>
